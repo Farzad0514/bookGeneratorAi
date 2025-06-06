@@ -232,7 +232,7 @@ class BookGenerator:
         }
         
         try:
-            response = requests.post(self.base_url, json=payload, timeout=120)
+            response = requests.post(self.base_url, json=payload, timeout=1000)
             response.raise_for_status()
             
             result = response.json()
