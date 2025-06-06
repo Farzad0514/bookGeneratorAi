@@ -30,7 +30,7 @@ class BookGenerator:
         
         # Predefined structure templates for different topics
         structures = {
-            "dev_ops": {
+            "DevOps": {
     "Part I: Foundations of DevOps": {
         "Chapter 1: Operating Systems": [
             "Linux (RHEL, Ubuntu, SUSE)",
