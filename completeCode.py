@@ -8,7 +8,7 @@ import hashlib
 import course_content  # Assuming this is a module with predefined book structures
 
 class BookGenerator:
-    def __init__(self, ollama_host="0.0.0.0:11434", model="llama3.2:1b"):
+    def __init__(self, ollama_host="127.0.0.1:11434", model="llama3.2:1b"):
         self.ollama_host = ollama_host
         self.model = model
         self.base_url = f"http://{ollama_host}/api/generate"
@@ -319,7 +319,7 @@ def main():
     
     # Initialize the book generator
     generator = BookGenerator(
-        ollama_host="0.0.0.0:11434", 
+        ollama_host="127.0.0.1:11434", 
         model="llama3.1:8b"
     )
     
