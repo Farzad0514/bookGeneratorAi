@@ -1,5 +1,5 @@
-structure = {
-    "structure": {
+structures = {
+            "dev_ops": {
     "Part I: Foundations of DevOps": {
         "Chapter 1: Operating Systems": [
             "Linux (RHEL, Ubuntu, SUSE)",
@@ -87,5 +87,88 @@ structure = {
             "Cloud Specific Tools (General)"
         ]
     }
-}
-    }
+},
+            "default": {
+                "Part I: Introduction and Fundamentals": {
+                    f"Chapter 1: Introduction to {topic.title()}": [
+                        f"What is {topic.title()}?",
+                        "Historical Context",
+                        "Key Concepts and Terminology",
+                        "Current State and Trends"
+                    ],
+                    f"Chapter 2: Theoretical Foundations": [
+                        "Core Principles",
+                        "Fundamental Theories",
+                        "Research Methodologies",
+                        "Interdisciplinary Connections"
+                    ],
+                    f"Chapter 3: Essential Skills and Tools": [
+                        "Required Competencies",
+                        "Software and Technologies",
+                        "Best Practices",
+                        "Learning Resources"
+                    ]
+                },
+                "Part II: Core Concepts and Methods": {
+                    f"Chapter 4: Primary Methodologies": [
+                        "Approach 1: Traditional Methods",
+                        "Approach 2: Modern Techniques",
+                        "Comparative Analysis",
+                        "Selection Criteria"
+                    ],
+                    f"Chapter 5: Advanced Techniques": [
+                        "Cutting-edge Approaches",
+                        "Emerging Technologies",
+                        "Innovation Trends",
+                        "Future Directions"
+                    ],
+                    f"Chapter 6: Practical Implementation": [
+                        "Step-by-step Processes",
+                        "Common Challenges",
+                        "Solutions and Workarounds",
+                        "Quality Assurance"
+                    ]
+                },
+                "Part III: Applications and Case Studies": {
+                    f"Chapter 7: Real-world Applications": [
+                        "Industry Use Cases",
+                        "Success Stories",
+                        "Lessons Learned",
+                        "ROI and Impact Measurement"
+                    ],
+                    f"Chapter 8: Case Study Analysis": [
+                        "Detailed Case Study 1",
+                        "Detailed Case Study 2",
+                        "Comparative Analysis",
+                        "Key Takeaways"
+                    ],
+                    f"Chapter 9: Specialized Domains": [
+                        "Domain-specific Applications",
+                        "Customization Strategies",
+                        "Integration Challenges",
+                        "Domain Expertise Requirements"
+                    ]
+                },
+                "Part IV: Advanced Topics and Future": {
+                    f"Chapter 10: Current Challenges": [
+                        "Technical Limitations",
+                        "Scalability Issues",
+                        "Resource Constraints",
+                        "Solution Strategies"
+                    ],
+                    f"Chapter 11: Future Trends": [
+                        "Emerging Technologies",
+                        "Market Predictions",
+                        "Research Directions",
+                        "Potential Disruptions"
+                    ],
+                    f"Chapter 12: Conclusion and Next Steps": [
+                        "Summary of Key Points",
+                        "Actionable Recommendations",
+                        "Further Learning Paths",
+                        "Final Thoughts"
+                    ]
+                }
+            }
+        }
+        
