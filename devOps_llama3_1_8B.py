@@ -207,7 +207,9 @@ class BookGenerator:
         
         
                 # Select appropriate structure
-        structure = structures.get(topic.lower().replace(" ", "_"), structures["default"])
+        # structure = structures.get(topic.lower().replace(" ", "_"), structures["default"])
+        structure = structures.get(topic, structures["default"])
+
         
         # Calculate word allocation
         total_sections = sum(len(sections) for part in structure.values() for sections in part.values())
