@@ -5,7 +5,6 @@ import os
 from datetime import datetime
 from typing import Dict, List, Optional
 import hashlib
-import course_content  # Assuming this is a module with predefined book structures
 
 class BookGenerator:
     def __init__(self, ollama_host="127.0.0.1:11434", model="llama3.1:8b"):
