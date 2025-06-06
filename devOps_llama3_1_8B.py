@@ -382,7 +382,7 @@ def main():
     )
     
     # Example usage
-    topic = "DevOps  # Change this to any topic you want
+    topic = "DevOps"  # Change this to any topic you want
     
     print("🤖 AI Book Generator (Llama 3.1 8B Optimized)")
     print("=" * 60)
